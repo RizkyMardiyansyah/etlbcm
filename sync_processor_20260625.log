@@ -1,0 +1,44 @@
+2026-06-25 15:21:04,526 [INFO] ============================================================
+2026-06-25 15:21:04,526 [INFO] START sync_processor — 2026-06-25 15:21:04.526173
+2026-06-25 15:21:04,526 [INFO] ============================================================
+2026-06-25 15:21:04,526 [INFO] Menghubungkan ke bcmdb sebagai sa...
+2026-06-25 15:21:04,560 [INFO] Menghubungkan ke GRAFANADB sebagai sa...
+2026-06-25 15:21:04,580 [INFO] [ensure_table] Tabel 'Atrium_CMDB_Processor' sudah tersedia di GRAFANADB.
+2026-06-25 15:21:04,580 [INFO] [fetch] Query: SELECT ... FROM [bcmdbuser].[Atrium_CMDB_Processor]
+2026-06-25 15:21:04,586 [INFO] [fetch] Berhasil membaca 8 baris dari bcmdb.bcmdbuser.Atrium_CMDB_Processor.
+2026-06-25 15:21:04,594 [INFO] [upsert] Selesai. Diproses=8, Diskip=0, Error=0.
+2026-06-25 15:21:04,595 [INFO] FINISH sync_processor — 2026-06-25 15:21:04.595177
+2026-06-25 15:21:04,595 [INFO] ============================================================
+2026-06-25 15:29:00,262 [INFO] ============================================================
+2026-06-25 15:29:00,262 [INFO] START sync_processor — 2026-06-25 15:29:00.262493
+2026-06-25 15:29:00,262 [INFO] ============================================================
+2026-06-25 15:29:00,262 [INFO] Menghubungkan ke bcmdb sebagai sa...
+2026-06-25 15:29:00,297 [INFO] Menghubungkan ke GRAFANADB sebagai sa...
+2026-06-25 15:29:00,305 [INFO] [ensure_table] Tabel 'Atrium_CMDB_Processor' sudah tersedia di GRAFANADB.
+2026-06-25 15:29:00,306 [INFO] [fetch] Query: SELECT ... FROM [bcmdbuser].[Atrium_CMDB_Processor]
+2026-06-25 15:29:00,306 [INFO] [fetch] Berhasil membaca 8 baris dari bcmdb.bcmdbuser.Atrium_CMDB_Processor.
+2026-06-25 15:29:00,316 [INFO] [upsert] Selesai. Diproses=8, Diskip=0, Error=0.
+2026-06-25 15:29:00,317 [INFO] FINISH sync_processor — 2026-06-25 15:29:00.317488
+2026-06-25 15:29:00,317 [INFO] ============================================================
+2026-06-25 15:36:20,095 [INFO] ============================================================
+2026-06-25 15:36:20,096 [INFO] START sync_processor — 2026-06-25 15:36:20.096714
+2026-06-25 15:36:20,096 [INFO] ============================================================
+2026-06-25 15:36:20,096 [INFO] Menghubungkan ke bcmdb sebagai sa...
+2026-06-25 15:36:20,133 [INFO] Menghubungkan ke GRAFANADB sebagai sa...
+2026-06-25 15:36:20,139 [INFO] [ensure_table] Tabel 'Atrium_CMDB_Processor' sudah tersedia di GRAFANADB.
+2026-06-25 15:36:20,139 [INFO] [fetch] Query: SELECT ... FROM [bcmdbuser].[Atrium_CMDB_Processor]
+2026-06-25 15:36:20,140 [INFO] [fetch] Berhasil membaca 8 baris dari bcmdb.bcmdbuser.Atrium_CMDB_Processor.
+2026-06-25 15:36:20,142 [INFO] [upsert] Selesai. Diproses=8, Diskip=0, Error=0.
+2026-06-25 15:36:20,143 [INFO] FINISH sync_processor — 2026-06-25 15:36:20.143715
+2026-06-25 15:36:20,143 [INFO] ============================================================
+2026-06-25 15:37:14,537 [INFO] ============================================================
+2026-06-25 15:37:14,537 [INFO] START sync_processor — 2026-06-25 15:37:14.537986
+2026-06-25 15:37:14,537 [INFO] ============================================================
+2026-06-25 15:37:14,537 [INFO] Menghubungkan ke bcmdb sebagai sa...
+2026-06-25 15:37:14,578 [INFO] Menghubungkan ke GRAFANADB sebagai sa...
+2026-06-25 15:37:14,585 [INFO] [ensure_table] Tabel 'Atrium_CMDB_Processor' sudah tersedia di GRAFANADB.
+2026-06-25 15:37:14,585 [INFO] [fetch] Query: SELECT ... FROM [bcmdbuser].[Atrium_CMDB_Processor]
+2026-06-25 15:37:14,585 [INFO] [fetch] Berhasil membaca 8 baris dari bcmdb.bcmdbuser.Atrium_CMDB_Processor.
+2026-06-25 15:37:14,589 [INFO] [upsert] Selesai. Diproses=8, Diskip=0, Error=0.
+2026-06-25 15:37:14,590 [INFO] FINISH sync_processor — 2026-06-25 15:37:14.590984
+2026-06-25 15:37:14,590 [INFO] ============================================================

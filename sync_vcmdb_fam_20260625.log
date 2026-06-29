@@ -1,0 +1,44 @@
+2026-06-25 15:21:05,052 [INFO] ============================================================
+2026-06-25 15:21:05,052 [INFO] START sync_vcmdb_fam (V_CMDB_FAM) -- 2026-06-25 15:21:05.052184
+2026-06-25 15:21:05,052 [INFO] ============================================================
+2026-06-25 15:21:05,052 [INFO] Menghubungkan ke bcmdb sebagai sa...
+2026-06-25 15:21:05,086 [INFO] Menghubungkan ke GRAFANADB sebagai sa...
+2026-06-25 15:21:05,092 [INFO] [ensure_table] Tabel 'V_CMDB_FAM' sudah tersedia di GRAFANADB.
+2026-06-25 15:21:05,092 [INFO] [fetch] Query: SELECT ... FROM [bcmdbuser].[V_CMDB_FAM]
+2026-06-25 15:21:05,094 [INFO] [fetch] Berhasil membaca 33 baris dari bcmdb.bcmdbuser.V_CMDB_FAM.
+2026-06-25 15:21:05,112 [INFO] [upsert] Selesai. Diproses=33, Diskip=0, Error=0.
+2026-06-25 15:21:05,112 [INFO] FINISH sync_vcmdb_fam (V_CMDB_FAM) -- 2026-06-25 15:21:05.112174
+2026-06-25 15:21:05,112 [INFO] ============================================================
+2026-06-25 15:29:00,709 [INFO] ============================================================
+2026-06-25 15:29:00,710 [INFO] START sync_vcmdb_fam (V_CMDB_FAM) -- 2026-06-25 15:29:00.710491
+2026-06-25 15:29:00,710 [INFO] ============================================================
+2026-06-25 15:29:00,710 [INFO] Menghubungkan ke bcmdb sebagai sa...
+2026-06-25 15:29:00,746 [INFO] Menghubungkan ke GRAFANADB sebagai sa...
+2026-06-25 15:29:00,758 [INFO] [ensure_table] Tabel 'V_CMDB_FAM' sudah tersedia di GRAFANADB.
+2026-06-25 15:29:00,758 [INFO] [fetch] Query: SELECT ... FROM [bcmdbuser].[V_CMDB_FAM]
+2026-06-25 15:29:00,767 [INFO] [fetch] Berhasil membaca 33 baris dari bcmdb.bcmdbuser.V_CMDB_FAM.
+2026-06-25 15:29:00,821 [INFO] [upsert] Selesai. Diproses=33, Diskip=0, Error=0.
+2026-06-25 15:29:00,822 [INFO] FINISH sync_vcmdb_fam (V_CMDB_FAM) -- 2026-06-25 15:29:00.822494
+2026-06-25 15:29:00,822 [INFO] ============================================================
+2026-06-25 15:36:20,611 [INFO] ============================================================
+2026-06-25 15:36:20,611 [INFO] START sync_vcmdb_fam (V_CMDB_FAM) -- 2026-06-25 15:36:20.611717
+2026-06-25 15:36:20,611 [INFO] ============================================================
+2026-06-25 15:36:20,612 [INFO] Menghubungkan ke bcmdb sebagai sa...
+2026-06-25 15:36:20,646 [INFO] Menghubungkan ke GRAFANADB sebagai sa...
+2026-06-25 15:36:20,651 [INFO] [ensure_table] Tabel 'V_CMDB_FAM' sudah tersedia di GRAFANADB.
+2026-06-25 15:36:20,651 [INFO] [fetch] Query: SELECT ... FROM [bcmdbuser].[V_CMDB_FAM]
+2026-06-25 15:36:20,654 [INFO] [fetch] Berhasil membaca 33 baris dari bcmdb.bcmdbuser.V_CMDB_FAM.
+2026-06-25 15:36:20,671 [INFO] [upsert] Selesai. Diproses=33, Diskip=0, Error=0.
+2026-06-25 15:36:20,672 [INFO] FINISH sync_vcmdb_fam (V_CMDB_FAM) -- 2026-06-25 15:36:20.672719
+2026-06-25 15:36:20,672 [INFO] ============================================================
+2026-06-25 15:37:15,065 [INFO] ============================================================
+2026-06-25 15:37:15,065 [INFO] START sync_vcmdb_fam (V_CMDB_FAM) -- 2026-06-25 15:37:15.065989
+2026-06-25 15:37:15,065 [INFO] ============================================================
+2026-06-25 15:37:15,065 [INFO] Menghubungkan ke bcmdb sebagai sa...
+2026-06-25 15:37:15,102 [INFO] Menghubungkan ke GRAFANADB sebagai sa...
+2026-06-25 15:37:15,107 [INFO] [ensure_table] Tabel 'V_CMDB_FAM' sudah tersedia di GRAFANADB.
+2026-06-25 15:37:15,108 [INFO] [fetch] Query: SELECT ... FROM [bcmdbuser].[V_CMDB_FAM]
+2026-06-25 15:37:15,110 [INFO] [fetch] Berhasil membaca 33 baris dari bcmdb.bcmdbuser.V_CMDB_FAM.
+2026-06-25 15:37:15,128 [INFO] [upsert] Selesai. Diproses=33, Diskip=0, Error=0.
+2026-06-25 15:37:15,128 [INFO] FINISH sync_vcmdb_fam (V_CMDB_FAM) -- 2026-06-25 15:37:15.128985
+2026-06-25 15:37:15,129 [INFO] ============================================================
