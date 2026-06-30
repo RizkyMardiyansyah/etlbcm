@@ -1,0 +1,44 @@
+2026-06-30 19:47:22,123 [INFO] ============================================================
+2026-06-30 19:47:22,124 [INFO] START sync_device — 2026-06-30 19:47:22.124123
+2026-06-30 19:47:22,124 [INFO] ============================================================
+2026-06-30 19:47:22,124 [INFO] Menghubungkan ke source MSSQL (bcmdb)...
+2026-06-30 19:47:22,182 [INFO] Menghubungkan ke destination PostgreSQL (GRAFANADB)...
+2026-06-30 19:47:22,249 [INFO] [ensure_table] Tabel 'public.V_CMDB_Device' sudah tersedia.
+2026-06-30 19:47:22,250 [INFO] [fetch] SELECT [DeviceID], [DeviceName], [LastAudit], [IPAddress], [MACAddress], [OperatingSystemName], [VIMMachineVendor], [HypervisorVendor], [Manufacturer], [Model], [Notes], [SerialNumber], [LastLoggedInUser], [DeviceType], [Status], [Memory], [DiskDrives], [ProcessorDetails], [DrivePartitions], [LastRIScanDate], [DiscoveredBy] FROM [bcmdbuser].[V_CMDB_Device]
+2026-06-30 19:47:22,260 [INFO] [fetch] 33 baris dibaca dari bcmdb.bcmdbuser.V_CMDB_Device.
+2026-06-30 19:47:22,283 [INFO] [upsert] Selesai. Diproses=33, Diskip=0, Error=0.
+2026-06-30 19:47:22,284 [INFO] FINISH sync_device — 2026-06-30 19:47:22.284551
+2026-06-30 19:47:22,284 [INFO] ============================================================
+2026-06-30 19:50:52,823 [INFO] ============================================================
+2026-06-30 19:50:52,824 [INFO] START sync_device — 2026-06-30 19:50:52.824100
+2026-06-30 19:50:52,824 [INFO] ============================================================
+2026-06-30 19:50:52,824 [INFO] Menghubungkan ke source MSSQL (bcmdb)...
+2026-06-30 19:50:52,861 [INFO] Menghubungkan ke destination PostgreSQL (GRAFANADB)...
+2026-06-30 19:50:52,928 [INFO] [ensure_table] Tabel 'public.V_CMDB_Device' sudah tersedia.
+2026-06-30 19:50:52,928 [INFO] [fetch] SELECT [DeviceID], [DeviceName], [LastAudit], [IPAddress], [MACAddress], [OperatingSystemName], [VIMMachineVendor], [HypervisorVendor], [Manufacturer], [Model], [Notes], [SerialNumber], [LastLoggedInUser], [DeviceType], [Status], [Memory], [DiskDrives], [ProcessorDetails], [DrivePartitions], [LastRIScanDate], [DiscoveredBy] FROM [bcmdbuser].[V_CMDB_Device]
+2026-06-30 19:50:52,935 [INFO] [fetch] 33 baris dibaca dari bcmdb.bcmdbuser.V_CMDB_Device.
+2026-06-30 19:50:52,964 [INFO] [upsert] Selesai. Diproses=33, Diskip=0, Error=0.
+2026-06-30 19:50:52,965 [INFO] FINISH sync_device — 2026-06-30 19:50:52.965044
+2026-06-30 19:50:52,965 [INFO] ============================================================
+2026-06-30 19:56:02,305 [INFO] ============================================================
+2026-06-30 19:56:02,305 [INFO] START sync_device — 2026-06-30 19:56:02.305478
+2026-06-30 19:56:02,305 [INFO] ============================================================
+2026-06-30 19:56:02,305 [INFO] Menghubungkan ke source MSSQL (bcmdb)...
+2026-06-30 19:56:02,342 [INFO] Menghubungkan ke destination PostgreSQL (GRAFANADB)...
+2026-06-30 19:56:02,414 [INFO] [ensure_table] Tabel 'public.V_CMDB_Device' sudah tersedia.
+2026-06-30 19:56:02,414 [INFO] [fetch] SELECT [DeviceID], [DeviceName], [LastAudit], [IPAddress], [MACAddress], [OperatingSystemName], [VIMMachineVendor], [HypervisorVendor], [Manufacturer], [Model], [Notes], [SerialNumber], [LastLoggedInUser], [DeviceType], [Status], [Memory], [DiskDrives], [ProcessorDetails], [DrivePartitions], [LastRIScanDate], [DiscoveredBy] FROM [bcmdbuser].[V_CMDB_Device]
+2026-06-30 19:56:02,421 [INFO] [fetch] 33 baris dibaca dari bcmdb.bcmdbuser.V_CMDB_Device.
+2026-06-30 19:56:02,471 [INFO] [upsert] Selesai. Diproses=33, Diskip=0, Error=0.
+2026-06-30 19:56:02,473 [INFO] FINISH sync_device — 2026-06-30 19:56:02.473558
+2026-06-30 19:56:02,473 [INFO] ============================================================
+2026-06-30 19:57:36,499 [INFO] ============================================================
+2026-06-30 19:57:36,500 [INFO] START sync_device — 2026-06-30 19:57:36.500088
+2026-06-30 19:57:36,500 [INFO] ============================================================
+2026-06-30 19:57:36,500 [INFO] Menghubungkan ke source MSSQL (bcmdb)...
+2026-06-30 19:57:36,537 [INFO] Menghubungkan ke destination PostgreSQL (GRAFANADB)...
+2026-06-30 19:57:36,603 [INFO] [ensure_table] Tabel 'public.V_CMDB_Device' sudah tersedia.
+2026-06-30 19:57:36,603 [INFO] [fetch] SELECT [DeviceID], [DeviceName], [LastAudit], [IPAddress], [MACAddress], [OperatingSystemName], [VIMMachineVendor], [HypervisorVendor], [Manufacturer], [Model], [Notes], [SerialNumber], [LastLoggedInUser], [DeviceType], [Status], [Memory], [DiskDrives], [ProcessorDetails], [DrivePartitions], [LastRIScanDate], [DiscoveredBy] FROM [bcmdbuser].[V_CMDB_Device]
+2026-06-30 19:57:36,609 [INFO] [fetch] 33 baris dibaca dari bcmdb.bcmdbuser.V_CMDB_Device.
+2026-06-30 19:57:36,629 [INFO] [upsert] Selesai. Diproses=33, Diskip=0, Error=0.
+2026-06-30 19:57:36,630 [INFO] FINISH sync_device — 2026-06-30 19:57:36.630381
+2026-06-30 19:57:36,630 [INFO] ============================================================

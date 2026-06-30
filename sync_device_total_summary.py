@@ -1,7 +1,7 @@
 # =============================================================================
-# sync_vcmdb_fam.py
+# sync_device_total_summary.py
 # Sinkronisasi: bcmdb (MSSQL) -> GRAFANADB (PostgreSQL)
-# Tabel: V_CMDB_FAM | PK: DeviceID
+# Tabel: V_DeviceTotal_Summary | PK: InventoryID
 # =============================================================================
 
 import logging
@@ -16,7 +16,7 @@ from db_utils import get_src_connection, get_dst_connection, \
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 LOG_DIR  = os.path.join(BASE_DIR, "logs")
 os.makedirs(LOG_DIR, exist_ok=True)
-LOG_FILE = os.path.join(LOG_DIR, f"sync_vcmdb_fam_{datetime.now().strftime('%Y%m%d')}.log")
+LOG_FILE = os.path.join(LOG_DIR, f"sync_device_total_summary_{datetime.now().strftime('%Y%m%d')}.log")
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
@@ -27,7 +27,7 @@ logging.basicConfig(
 )
 log = logging.getLogger(__name__)
 
-TABLE_KEY  = "V_CMDB_FAM"
+TABLE_KEY  = "V_DeviceTotal_Summary"
 SCHEMA     = TABLE_SCHEMAS[TABLE_KEY]
 COLUMNS    = SCHEMA["columns"]
 COL_NAMES  = [c[0] for c in COLUMNS]
@@ -37,7 +37,7 @@ MERGE_KEYS = SCHEMA.get("merge_keys")
 
 def main():
     log.info("=" * 60)
-    log.info(f"START sync_vcmdb_fam — {datetime.now()}")
+    log.info(f"START sync_device_total_summary — {datetime.now()}")
     log.info("=" * 60)
 
     src_conn = dst_conn = None
@@ -65,7 +65,7 @@ def main():
         if dst_conn:
             dst_conn.close()
 
-    log.info(f"FINISH sync_vcmdb_fam — {datetime.now()}")
+    log.info(f"FINISH sync_device_total_summary — {datetime.now()}")
     log.info("=" * 60)
 
 

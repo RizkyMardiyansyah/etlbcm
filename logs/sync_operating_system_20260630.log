@@ -1,0 +1,44 @@
+2026-06-30 19:47:20,386 [INFO] ============================================================
+2026-06-30 19:47:20,386 [INFO] START sync_operating_system — 2026-06-30 19:47:20.386636
+2026-06-30 19:47:20,386 [INFO] ============================================================
+2026-06-30 19:47:20,386 [INFO] Menghubungkan ke source MSSQL (bcmdb)...
+2026-06-30 19:47:20,423 [INFO] Menghubungkan ke destination PostgreSQL (GRAFANADB)...
+2026-06-30 19:47:20,589 [INFO] [ensure_table] Tabel 'public.Atrium_CMDB_OperatingSystem' sudah tersedia.
+2026-06-30 19:47:20,589 [INFO] [fetch] SELECT [DeviceID], [InventoryID], [DeviceName], [BuildNumber], [ServicePack], [VersionNumber], [Description], [OSName], [OSLanguage], [ShortDescription], [LastUpdate] FROM [bcmdbuser].[Atrium_CMDB_OperatingSystem]
+2026-06-30 19:47:20,591 [INFO] [fetch] 33 baris dibaca dari bcmdb.bcmdbuser.Atrium_CMDB_OperatingSystem.
+2026-06-30 19:47:20,605 [INFO] [upsert] Selesai. Diproses=33, Diskip=0, Error=0.
+2026-06-30 19:47:20,606 [INFO] FINISH sync_operating_system — 2026-06-30 19:47:20.606695
+2026-06-30 19:47:20,606 [INFO] ============================================================
+2026-06-30 19:50:51,214 [INFO] ============================================================
+2026-06-30 19:50:51,214 [INFO] START sync_operating_system — 2026-06-30 19:50:51.214746
+2026-06-30 19:50:51,214 [INFO] ============================================================
+2026-06-30 19:50:51,215 [INFO] Menghubungkan ke source MSSQL (bcmdb)...
+2026-06-30 19:50:51,250 [INFO] Menghubungkan ke destination PostgreSQL (GRAFANADB)...
+2026-06-30 19:50:51,319 [INFO] [ensure_table] Tabel 'public.Atrium_CMDB_OperatingSystem' sudah tersedia.
+2026-06-30 19:50:51,319 [INFO] [fetch] SELECT [DeviceID], [InventoryID], [DeviceName], [BuildNumber], [ServicePack], [VersionNumber], [Description], [OSName], [OSLanguage], [ShortDescription], [LastUpdate] FROM [bcmdbuser].[Atrium_CMDB_OperatingSystem]
+2026-06-30 19:50:51,320 [INFO] [fetch] 33 baris dibaca dari bcmdb.bcmdbuser.Atrium_CMDB_OperatingSystem.
+2026-06-30 19:50:51,334 [INFO] [upsert] Selesai. Diproses=33, Diskip=0, Error=0.
+2026-06-30 19:50:51,335 [INFO] FINISH sync_operating_system — 2026-06-30 19:50:51.335791
+2026-06-30 19:50:51,335 [INFO] ============================================================
+2026-06-30 19:56:00,587 [INFO] ============================================================
+2026-06-30 19:56:00,588 [INFO] START sync_operating_system — 2026-06-30 19:56:00.587986
+2026-06-30 19:56:00,588 [INFO] ============================================================
+2026-06-30 19:56:00,588 [INFO] Menghubungkan ke source MSSQL (bcmdb)...
+2026-06-30 19:56:00,627 [INFO] Menghubungkan ke destination PostgreSQL (GRAFANADB)...
+2026-06-30 19:56:00,713 [INFO] [ensure_table] Tabel 'public.Atrium_CMDB_OperatingSystem' sudah tersedia.
+2026-06-30 19:56:00,713 [INFO] [fetch] SELECT [DeviceID], [InventoryID], [DeviceName], [BuildNumber], [ServicePack], [VersionNumber], [Description], [OSName], [OSLanguage], [ShortDescription], [LastUpdate] FROM [bcmdbuser].[Atrium_CMDB_OperatingSystem]
+2026-06-30 19:56:00,715 [INFO] [fetch] 33 baris dibaca dari bcmdb.bcmdbuser.Atrium_CMDB_OperatingSystem.
+2026-06-30 19:56:00,728 [INFO] [upsert] Selesai. Diproses=33, Diskip=0, Error=0.
+2026-06-30 19:56:00,729 [INFO] FINISH sync_operating_system — 2026-06-30 19:56:00.729762
+2026-06-30 19:56:00,729 [INFO] ============================================================
+2026-06-30 19:57:35,036 [INFO] ============================================================
+2026-06-30 19:57:35,036 [INFO] START sync_operating_system — 2026-06-30 19:57:35.036266
+2026-06-30 19:57:35,036 [INFO] ============================================================
+2026-06-30 19:57:35,036 [INFO] Menghubungkan ke source MSSQL (bcmdb)...
+2026-06-30 19:57:35,074 [INFO] Menghubungkan ke destination PostgreSQL (GRAFANADB)...
+2026-06-30 19:57:35,143 [INFO] [ensure_table] Tabel 'public.Atrium_CMDB_OperatingSystem' sudah tersedia.
+2026-06-30 19:57:35,143 [INFO] [fetch] SELECT [DeviceID], [InventoryID], [DeviceName], [BuildNumber], [ServicePack], [VersionNumber], [Description], [OSName], [OSLanguage], [ShortDescription], [LastUpdate] FROM [bcmdbuser].[Atrium_CMDB_OperatingSystem]
+2026-06-30 19:57:35,145 [INFO] [fetch] 33 baris dibaca dari bcmdb.bcmdbuser.Atrium_CMDB_OperatingSystem.
+2026-06-30 19:57:35,159 [INFO] [upsert] Selesai. Diproses=33, Diskip=0, Error=0.
+2026-06-30 19:57:35,160 [INFO] FINISH sync_operating_system — 2026-06-30 19:57:35.160338
+2026-06-30 19:57:35,160 [INFO] ============================================================

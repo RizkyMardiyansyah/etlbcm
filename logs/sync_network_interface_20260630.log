@@ -1,0 +1,44 @@
+2026-06-30 19:47:20,101 [INFO] ============================================================
+2026-06-30 19:47:20,101 [INFO] START sync_network_interface — 2026-06-30 19:47:20.101695
+2026-06-30 19:47:20,101 [INFO] ============================================================
+2026-06-30 19:47:20,102 [INFO] Menghubungkan ke source MSSQL (bcmdb)...
+2026-06-30 19:47:20,138 [INFO] Menghubungkan ke destination PostgreSQL (GRAFANADB)...
+2026-06-30 19:47:20,206 [INFO] [ensure_table] Tabel 'public.Atrium_CMDB_NetworkInterface' sudah tersedia.
+2026-06-30 19:47:20,206 [INFO] [fetch] SELECT [DeviceID], [DeviceName], [LastUpdate], [NetworkInterfaceID], [MACAddress], [IPAddress], [Name], [ShortDescription], [Description] FROM [bcmdbuser].[Atrium_CMDB_NetworkInterface]
+2026-06-30 19:47:20,208 [INFO] [fetch] 33 baris dibaca dari bcmdb.bcmdbuser.Atrium_CMDB_NetworkInterface.
+2026-06-30 19:47:20,224 [INFO] [upsert] Selesai. Diproses=33, Diskip=0, Error=0.
+2026-06-30 19:47:20,225 [INFO] FINISH sync_network_interface — 2026-06-30 19:47:20.224986
+2026-06-30 19:47:20,225 [INFO] ============================================================
+2026-06-30 19:50:50,924 [INFO] ============================================================
+2026-06-30 19:50:50,925 [INFO] START sync_network_interface — 2026-06-30 19:50:50.924972
+2026-06-30 19:50:50,925 [INFO] ============================================================
+2026-06-30 19:50:50,925 [INFO] Menghubungkan ke source MSSQL (bcmdb)...
+2026-06-30 19:50:50,961 [INFO] Menghubungkan ke destination PostgreSQL (GRAFANADB)...
+2026-06-30 19:50:51,036 [INFO] [ensure_table] Tabel 'public.Atrium_CMDB_NetworkInterface' sudah tersedia.
+2026-06-30 19:50:51,036 [INFO] [fetch] SELECT [DeviceID], [DeviceName], [LastUpdate], [NetworkInterfaceID], [MACAddress], [IPAddress], [Name], [ShortDescription], [Description] FROM [bcmdbuser].[Atrium_CMDB_NetworkInterface]
+2026-06-30 19:50:51,038 [INFO] [fetch] 33 baris dibaca dari bcmdb.bcmdbuser.Atrium_CMDB_NetworkInterface.
+2026-06-30 19:50:51,052 [INFO] [upsert] Selesai. Diproses=33, Diskip=0, Error=0.
+2026-06-30 19:50:51,053 [INFO] FINISH sync_network_interface — 2026-06-30 19:50:51.053425
+2026-06-30 19:50:51,053 [INFO] ============================================================
+2026-06-30 19:56:00,303 [INFO] ============================================================
+2026-06-30 19:56:00,303 [INFO] START sync_network_interface — 2026-06-30 19:56:00.303443
+2026-06-30 19:56:00,303 [INFO] ============================================================
+2026-06-30 19:56:00,303 [INFO] Menghubungkan ke source MSSQL (bcmdb)...
+2026-06-30 19:56:00,339 [INFO] Menghubungkan ke destination PostgreSQL (GRAFANADB)...
+2026-06-30 19:56:00,408 [INFO] [ensure_table] Tabel 'public.Atrium_CMDB_NetworkInterface' sudah tersedia.
+2026-06-30 19:56:00,408 [INFO] [fetch] SELECT [DeviceID], [DeviceName], [LastUpdate], [NetworkInterfaceID], [MACAddress], [IPAddress], [Name], [ShortDescription], [Description] FROM [bcmdbuser].[Atrium_CMDB_NetworkInterface]
+2026-06-30 19:56:00,409 [INFO] [fetch] 33 baris dibaca dari bcmdb.bcmdbuser.Atrium_CMDB_NetworkInterface.
+2026-06-30 19:56:00,423 [INFO] [upsert] Selesai. Diproses=33, Diskip=0, Error=0.
+2026-06-30 19:56:00,424 [INFO] FINISH sync_network_interface — 2026-06-30 19:56:00.424226
+2026-06-30 19:56:00,424 [INFO] ============================================================
+2026-06-30 19:57:34,737 [INFO] ============================================================
+2026-06-30 19:57:34,737 [INFO] START sync_network_interface — 2026-06-30 19:57:34.737609
+2026-06-30 19:57:34,737 [INFO] ============================================================
+2026-06-30 19:57:34,737 [INFO] Menghubungkan ke source MSSQL (bcmdb)...
+2026-06-30 19:57:34,773 [INFO] Menghubungkan ke destination PostgreSQL (GRAFANADB)...
+2026-06-30 19:57:34,863 [INFO] [ensure_table] Tabel 'public.Atrium_CMDB_NetworkInterface' sudah tersedia.
+2026-06-30 19:57:34,863 [INFO] [fetch] SELECT [DeviceID], [DeviceName], [LastUpdate], [NetworkInterfaceID], [MACAddress], [IPAddress], [Name], [ShortDescription], [Description] FROM [bcmdbuser].[Atrium_CMDB_NetworkInterface]
+2026-06-30 19:57:34,865 [INFO] [fetch] 33 baris dibaca dari bcmdb.bcmdbuser.Atrium_CMDB_NetworkInterface.
+2026-06-30 19:57:34,879 [INFO] [upsert] Selesai. Diproses=33, Diskip=0, Error=0.
+2026-06-30 19:57:34,879 [INFO] FINISH sync_network_interface — 2026-06-30 19:57:34.879749
+2026-06-30 19:57:34,879 [INFO] ============================================================

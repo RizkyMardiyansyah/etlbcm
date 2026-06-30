@@ -1,0 +1,44 @@
+2026-06-30 19:47:21,255 [INFO] ============================================================
+2026-06-30 19:47:21,255 [INFO] START sync_atrium_software — 2026-06-30 19:47:21.255619
+2026-06-30 19:47:21,255 [INFO] ============================================================
+2026-06-30 19:47:21,255 [INFO] Menghubungkan ke source MSSQL (bcmdb)...
+2026-06-30 19:47:21,293 [INFO] Menghubungkan ke destination PostgreSQL (GRAFANADB)...
+2026-06-30 19:47:21,361 [INFO] [ensure_table] Tabel 'public.Atrium_CMDB_Software' sudah tersedia.
+2026-06-30 19:47:21,361 [INFO] [fetch] SELECT [DeviceID], [InventoryID], [ManufacturerName], [Name], [VersionNumber], [Model], [MarketVersion], [Status], [IntegrationDate], [CategoryName] FROM [bcmdbuser].[Atrium_CMDB_Software]
+2026-06-30 19:47:21,370 [INFO] [fetch] 0 baris dibaca dari bcmdb.bcmdbuser.Atrium_CMDB_Software.
+2026-06-30 19:47:21,371 [WARNING] [upsert] Tidak ada data untuk di-sync.
+2026-06-30 19:47:21,371 [INFO] FINISH sync_atrium_software — 2026-06-30 19:47:21.371667
+2026-06-30 19:47:21,371 [INFO] ============================================================
+2026-06-30 19:50:51,794 [INFO] ============================================================
+2026-06-30 19:50:51,794 [INFO] START sync_atrium_software — 2026-06-30 19:50:51.794416
+2026-06-30 19:50:51,794 [INFO] ============================================================
+2026-06-30 19:50:51,794 [INFO] Menghubungkan ke source MSSQL (bcmdb)...
+2026-06-30 19:50:51,830 [INFO] Menghubungkan ke destination PostgreSQL (GRAFANADB)...
+2026-06-30 19:50:51,898 [INFO] [ensure_table] Tabel 'public.Atrium_CMDB_Software' sudah tersedia.
+2026-06-30 19:50:51,898 [INFO] [fetch] SELECT [DeviceID], [InventoryID], [ManufacturerName], [Name], [VersionNumber], [Model], [MarketVersion], [Status], [IntegrationDate], [CategoryName] FROM [bcmdbuser].[Atrium_CMDB_Software]
+2026-06-30 19:50:51,907 [INFO] [fetch] 0 baris dibaca dari bcmdb.bcmdbuser.Atrium_CMDB_Software.
+2026-06-30 19:50:51,907 [WARNING] [upsert] Tidak ada data untuk di-sync.
+2026-06-30 19:50:51,908 [INFO] FINISH sync_atrium_software — 2026-06-30 19:50:51.908923
+2026-06-30 19:50:51,909 [INFO] ============================================================
+2026-06-30 19:56:01,175 [INFO] ============================================================
+2026-06-30 19:56:01,175 [INFO] START sync_atrium_software — 2026-06-30 19:56:01.175288
+2026-06-30 19:56:01,175 [INFO] ============================================================
+2026-06-30 19:56:01,175 [INFO] Menghubungkan ke source MSSQL (bcmdb)...
+2026-06-30 19:56:01,217 [INFO] Menghubungkan ke destination PostgreSQL (GRAFANADB)...
+2026-06-30 19:56:01,284 [INFO] [ensure_table] Tabel 'public.Atrium_CMDB_Software' sudah tersedia.
+2026-06-30 19:56:01,285 [INFO] [fetch] SELECT [DeviceID], [InventoryID], [ManufacturerName], [Name], [VersionNumber], [Model], [MarketVersion], [Status], [IntegrationDate], [CategoryName] FROM [bcmdbuser].[Atrium_CMDB_Software]
+2026-06-30 19:56:01,292 [INFO] [fetch] 0 baris dibaca dari bcmdb.bcmdbuser.Atrium_CMDB_Software.
+2026-06-30 19:56:01,292 [WARNING] [upsert] Tidak ada data untuk di-sync.
+2026-06-30 19:56:01,293 [INFO] FINISH sync_atrium_software — 2026-06-30 19:56:01.293568
+2026-06-30 19:56:01,293 [INFO] ============================================================
+2026-06-30 19:57:35,641 [INFO] ============================================================
+2026-06-30 19:57:35,641 [INFO] START sync_atrium_software — 2026-06-30 19:57:35.641955
+2026-06-30 19:57:35,642 [INFO] ============================================================
+2026-06-30 19:57:35,642 [INFO] Menghubungkan ke source MSSQL (bcmdb)...
+2026-06-30 19:57:35,680 [INFO] Menghubungkan ke destination PostgreSQL (GRAFANADB)...
+2026-06-30 19:57:35,746 [INFO] [ensure_table] Tabel 'public.Atrium_CMDB_Software' sudah tersedia.
+2026-06-30 19:57:35,746 [INFO] [fetch] SELECT [DeviceID], [InventoryID], [ManufacturerName], [Name], [VersionNumber], [Model], [MarketVersion], [Status], [IntegrationDate], [CategoryName] FROM [bcmdbuser].[Atrium_CMDB_Software]
+2026-06-30 19:57:35,753 [INFO] [fetch] 0 baris dibaca dari bcmdb.bcmdbuser.Atrium_CMDB_Software.
+2026-06-30 19:57:35,753 [WARNING] [upsert] Tidak ada data untuk di-sync.
+2026-06-30 19:57:35,754 [INFO] FINISH sync_atrium_software — 2026-06-30 19:57:35.754205
+2026-06-30 19:57:35,754 [INFO] ============================================================

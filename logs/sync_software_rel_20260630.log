@@ -1,0 +1,33 @@
+2026-06-30 19:50:54,079 [INFO] ============================================================
+2026-06-30 19:50:54,079 [INFO] START sync_software_rel — 2026-06-30 19:50:54.079727
+2026-06-30 19:50:54,079 [INFO] ============================================================
+2026-06-30 19:50:54,080 [INFO] Menghubungkan ke source MSSQL (bcmdb)...
+2026-06-30 19:50:54,142 [INFO] Menghubungkan ke destination PostgreSQL (GRAFANADB)...
+2026-06-30 19:50:54,213 [INFO] [ensure_table] Tabel 'public.V_CMDB_SoftwareRel' sudah tersedia.
+2026-06-30 19:50:54,213 [INFO] [fetch] SELECT [DeviceID], [OperatingSystemName], [Name], [Version], [Manufacturer], [InstallDirectory] FROM [bcmdbuser].[V_CMDB_SoftwareRel]
+2026-06-30 19:50:54,266 [INFO] [fetch] 254 baris dibaca dari bcmdb.bcmdbuser.V_CMDB_SoftwareRel.
+2026-06-30 19:50:54,358 [INFO] [upsert] Selesai. Diproses=254, Diskip=0, Error=0.
+2026-06-30 19:50:54,360 [INFO] FINISH sync_software_rel — 2026-06-30 19:50:54.360062
+2026-06-30 19:50:54,360 [INFO] ============================================================
+2026-06-30 19:56:03,738 [INFO] ============================================================
+2026-06-30 19:56:03,738 [INFO] START sync_software_rel — 2026-06-30 19:56:03.738625
+2026-06-30 19:56:03,738 [INFO] ============================================================
+2026-06-30 19:56:03,739 [INFO] Menghubungkan ke source MSSQL (bcmdb)...
+2026-06-30 19:56:03,776 [INFO] Menghubungkan ke destination PostgreSQL (GRAFANADB)...
+2026-06-30 19:56:03,845 [INFO] [ensure_table] Tabel 'public.V_CMDB_SoftwareRel' sudah tersedia.
+2026-06-30 19:56:03,845 [INFO] [fetch] SELECT [DeviceID], [OperatingSystemName], [Name], [Version], [Manufacturer], [InstallDirectory] FROM [bcmdbuser].[V_CMDB_SoftwareRel]
+2026-06-30 19:56:03,854 [INFO] [fetch] 254 baris dibaca dari bcmdb.bcmdbuser.V_CMDB_SoftwareRel.
+2026-06-30 19:56:04,012 [INFO] [upsert] Selesai. Diproses=254, Diskip=0, Error=0.
+2026-06-30 19:56:04,013 [INFO] FINISH sync_software_rel — 2026-06-30 19:56:04.013480
+2026-06-30 19:56:04,013 [INFO] ============================================================
+2026-06-30 19:57:37,461 [INFO] ============================================================
+2026-06-30 19:57:37,461 [INFO] START sync_software_rel — 2026-06-30 19:57:37.461892
+2026-06-30 19:57:37,462 [INFO] ============================================================
+2026-06-30 19:57:37,462 [INFO] Menghubungkan ke source MSSQL (bcmdb)...
+2026-06-30 19:57:37,499 [INFO] Menghubungkan ke destination PostgreSQL (GRAFANADB)...
+2026-06-30 19:57:37,572 [INFO] [ensure_table] Tabel 'public.V_CMDB_SoftwareRel' sudah tersedia.
+2026-06-30 19:57:37,572 [INFO] [fetch] SELECT [DeviceID], [OperatingSystemName], [Name], [Version], [Manufacturer], [InstallDirectory] FROM [bcmdbuser].[V_CMDB_SoftwareRel]
+2026-06-30 19:57:37,580 [INFO] [fetch] 254 baris dibaca dari bcmdb.bcmdbuser.V_CMDB_SoftwareRel.
+2026-06-30 19:57:37,662 [INFO] [upsert] Selesai. Diproses=254, Diskip=0, Error=0.
+2026-06-30 19:57:37,663 [INFO] FINISH sync_software_rel — 2026-06-30 19:57:37.663660
+2026-06-30 19:57:37,663 [INFO] ============================================================

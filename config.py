@@ -1,38 +1,65 @@
 # =============================================================================
 # config.py - Konfigurasi koneksi database dan skema tabel
-# Digunakan bersama oleh semua script sync bcmdb -> GRAFANADB
+# Source  : MSSQL (bcmdb) via pyodbc
+# Destination : PostgreSQL (GRAFANADB) via psycopg2
 # =============================================================================
 
-# ─── Koneksi Database ────────────────────────────────────────────────────────
-
+# ─── Koneksi Source (MSSQL) ───────────────────────────────────────────────────
 DB_HOST     = "172.168.3.179"
-DB_PORT     = 1434          # SQL Server default port
+DB_PORT     = 1434
 
-# Source: bcmdb (baca dengan user sa)
 SRC_DB      = "bcmdb"
 SRC_USER    = "sa"
 SRC_PASS    = "P@ssw0rd2021"
 
-# Destination: GRAFANADB (tulis dengan user grafanauser)
-# Destination PostgreSQL
-DST_HOST = "172.168.2.120"
-DST_PORT = 5432
-DST_DB   = "GRAFANADB"
-DST_USER = "postgres"
-DST_PASS = "P@ssw0rd2021"
+# ─── Koneksi Destination (PostgreSQL) ────────────────────────────────────────
+DST_HOST    = "172.168.2.120"
+DST_PORT    = 5432
+DST_DB      = "GRAFANADB"
+DST_USER    = "postgres"
+DST_PASS    = "P@ssw0rd2021"
+DST_SCHEMA  = "public"
 
-DST_SCHEMA = "public"
-
-# ─── Driver ODBC ─────────────────────────────────────────────────────────────
+# ─── Driver ODBC (untuk source MSSQL) ────────────────────────────────────────
 ODBC_DRIVER = "ODBC Driver 17 for SQL Server"
 
-# ─── Schema Database ──────────────────────────────────────────────────────────
-# Query ke bcmdb: [bcmdbuser].[NamaTabel]
+# ─── Schema Source ────────────────────────────────────────────────────────────
 SRC_SCHEMA  = "bcmdbuser"
-# Tabel tujuan di GRAFANADB: [dbo].[NamaTabel]
-# DST_SCHEMA  = "dbo"
+
+# ─── Mapping tipe data MSSQL -> PostgreSQL ───────────────────────────────────
+# Digunakan oleh helper mssql_to_pg_type() di db_utils.py
+MSSQL_TO_PG = {
+    "INT":              "INTEGER",
+    "BIGINT":           "BIGINT",
+    "SMALLINT":         "SMALLINT",
+    "TINYINT":          "SMALLINT",
+    "BIT":              "BOOLEAN",
+    "FLOAT":            "DOUBLE PRECISION",
+    "REAL":             "REAL",
+    "DECIMAL":          "NUMERIC",        # presisi/skala dipertahankan
+    "NUMERIC":          "NUMERIC",
+    "MONEY":            "NUMERIC(19,4)",
+    "SMALLMONEY":       "NUMERIC(10,4)",
+    "DATETIME":         "TIMESTAMP",
+    "DATETIME2":        "TIMESTAMP",
+    "SMALLDATETIME":    "TIMESTAMP",
+    "DATE":             "DATE",
+    "TIME":             "TIME",
+    "NVARCHAR":         "VARCHAR",        # panjang dipertahankan
+    "VARCHAR":          "VARCHAR",
+    "NCHAR":            "CHAR",
+    "CHAR":             "CHAR",
+    "TEXT":             "TEXT",
+    "NTEXT":            "TEXT",
+    "UNIQUEIDENTIFIER": "UUID",
+    "VARBINARY":        "BYTEA",
+    "IMAGE":            "BYTEA",
+    "XML":              "TEXT",
+}
 
 # ─── Skema Tabel ─────────────────────────────────────────────────────────────
+# Tipe kolom ditulis dalam notasi MSSQL; konversi ke PG dilakukan otomatis
+# oleh fungsi mssql_to_pg_type() di db_utils.py
 
 TABLE_SCHEMAS = {
 
@@ -172,7 +199,6 @@ TABLE_SCHEMAS = {
     },
 
     # ── V_CMDB_FAM ───────────────────────────────────────────────────────────
-    # 31 kolom sesuai header yang dikonfirmasi user
     "V_CMDB_FAM": {
         "source_table" : "V_CMDB_FAM",
         "dest_table"   : "V_CMDB_FAM",
@@ -271,6 +297,40 @@ TABLE_SCHEMAS = {
             ("Version",               "NVARCHAR(128)"),
             ("Manufacturer",          "NVARCHAR(255)"),
             ("InstallDirectory",      "NVARCHAR(1024)"),
+        ],
+    },
+
+    # ── V_DeviceTotal_Summary ────────────────────────────────────────────────
+    "V_DeviceTotal_Summary": {
+        "source_table" : "V_DeviceTotal_Summary",
+        "dest_table"   : "V_DeviceTotal_Summary",
+        "primary_key"  : "DeviceID",
+        "columns": [
+            ("DeviceID",                  "INT"),
+            ("DeviceName",                "NVARCHAR(256)"),
+            ("IPAddress",                 "NVARCHAR(64)"),
+            ("MACAddress",                "NVARCHAR(64)"),
+            ("TopologyType",              "NVARCHAR(64)"),
+            ("VIMMachineVendor",          "NVARCHAR(64)"),
+            ("HypervisorVendor",          "NVARCHAR(64)"),
+            ("Manufacturer",              "NVARCHAR(256)"),
+            ("MODEL",                     "NVARCHAR(256)"),
+            ("SerialNumber",              "NVARCHAR(256)"),
+            ("LastUpdate",                "DATETIME"),
+            ("TotalDisk",                 "INT"),
+            ("LogicalDisksSpace",         "NVARCHAR(2000)"),
+            ("LogicalDisksFreeSpace",     "NVARCHAR(2000)"),
+            ("Processor",                 "NVARCHAR(256)"),
+            ("VideoController",           "NVARCHAR(256)"),
+            ("TotalMemory",               "INT"),
+            ("NbOfProcessors",            "INT"),
+            ("PhysicalMemory",            "NVARCHAR(2000)"),
+            ("NetworkAdapter",            "NVARCHAR(2000)"),
+            ("DomainName",                "NVARCHAR(256)"),
+            ("OperatingSystemName",       "NVARCHAR(256)"),
+            ("OperatingSystemVersion",    "NVARCHAR(76)"),
+            ("LastLoggedInUser",          "NVARCHAR(256)"),
+            ("Software",                  "NVARCHAR(8000)"),
         ],
     },
 }

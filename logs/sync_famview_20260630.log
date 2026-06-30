@@ -1,0 +1,44 @@
+2026-06-30 19:47:21,532 [INFO] ============================================================
+2026-06-30 19:47:21,533 [INFO] START sync_famview — 2026-06-30 19:47:21.532993
+2026-06-30 19:47:21,533 [INFO] ============================================================
+2026-06-30 19:47:21,533 [INFO] Menghubungkan ke source MSSQL (bcmdb)...
+2026-06-30 19:47:21,570 [INFO] Menghubungkan ke destination PostgreSQL (GRAFANADB)...
+2026-06-30 19:47:21,638 [INFO] [ensure_table] Tabel 'public.FAMView' sudah tersedia.
+2026-06-30 19:47:21,638 [INFO] [fetch] SELECT [DeviceID], [AdministratorID], [AssetAdmin], [UserID], [AssetUser], [GroupID], [Department], [VendorID], [VendorName], [VendorSKU], [PONumber], [SProvider], [LifeCycleStatus], [PrimaryUser] FROM [bcmdbuser].[FAMView]
+2026-06-30 19:47:21,641 [INFO] [fetch] 33 baris dibaca dari bcmdb.bcmdbuser.FAMView.
+2026-06-30 19:47:21,655 [INFO] [upsert] Selesai. Diproses=33, Diskip=0, Error=0.
+2026-06-30 19:47:21,656 [INFO] FINISH sync_famview — 2026-06-30 19:47:21.656434
+2026-06-30 19:47:21,656 [INFO] ============================================================
+2026-06-30 19:50:52,123 [INFO] ============================================================
+2026-06-30 19:50:52,123 [INFO] START sync_famview — 2026-06-30 19:50:52.123300
+2026-06-30 19:50:52,123 [INFO] ============================================================
+2026-06-30 19:50:52,123 [INFO] Menghubungkan ke source MSSQL (bcmdb)...
+2026-06-30 19:50:52,160 [INFO] Menghubungkan ke destination PostgreSQL (GRAFANADB)...
+2026-06-30 19:50:52,229 [INFO] [ensure_table] Tabel 'public.FAMView' sudah tersedia.
+2026-06-30 19:50:52,229 [INFO] [fetch] SELECT [DeviceID], [AdministratorID], [AssetAdmin], [UserID], [AssetUser], [GroupID], [Department], [VendorID], [VendorName], [VendorSKU], [PONumber], [SProvider], [LifeCycleStatus], [PrimaryUser] FROM [bcmdbuser].[FAMView]
+2026-06-30 19:50:52,232 [INFO] [fetch] 33 baris dibaca dari bcmdb.bcmdbuser.FAMView.
+2026-06-30 19:50:52,245 [INFO] [upsert] Selesai. Diproses=33, Diskip=0, Error=0.
+2026-06-30 19:50:52,246 [INFO] FINISH sync_famview — 2026-06-30 19:50:52.246001
+2026-06-30 19:50:52,246 [INFO] ============================================================
+2026-06-30 19:56:01,511 [INFO] ============================================================
+2026-06-30 19:56:01,525 [INFO] START sync_famview — 2026-06-30 19:56:01.525101
+2026-06-30 19:56:01,525 [INFO] ============================================================
+2026-06-30 19:56:01,525 [INFO] Menghubungkan ke source MSSQL (bcmdb)...
+2026-06-30 19:56:01,666 [INFO] Menghubungkan ke destination PostgreSQL (GRAFANADB)...
+2026-06-30 19:56:01,736 [INFO] [ensure_table] Tabel 'public.FAMView' sudah tersedia.
+2026-06-30 19:56:01,737 [INFO] [fetch] SELECT [DeviceID], [AdministratorID], [AssetAdmin], [UserID], [AssetUser], [GroupID], [Department], [VendorID], [VendorName], [VendorSKU], [PONumber], [SProvider], [LifeCycleStatus], [PrimaryUser] FROM [bcmdbuser].[FAMView]
+2026-06-30 19:56:01,740 [INFO] [fetch] 33 baris dibaca dari bcmdb.bcmdbuser.FAMView.
+2026-06-30 19:56:01,772 [INFO] [upsert] Selesai. Diproses=33, Diskip=0, Error=0.
+2026-06-30 19:56:01,773 [INFO] FINISH sync_famview — 2026-06-30 19:56:01.773604
+2026-06-30 19:56:01,773 [INFO] ============================================================
+2026-06-30 19:57:35,916 [INFO] ============================================================
+2026-06-30 19:57:35,916 [INFO] START sync_famview — 2026-06-30 19:57:35.916376
+2026-06-30 19:57:35,916 [INFO] ============================================================
+2026-06-30 19:57:35,916 [INFO] Menghubungkan ke source MSSQL (bcmdb)...
+2026-06-30 19:57:35,952 [INFO] Menghubungkan ke destination PostgreSQL (GRAFANADB)...
+2026-06-30 19:57:36,020 [INFO] [ensure_table] Tabel 'public.FAMView' sudah tersedia.
+2026-06-30 19:57:36,021 [INFO] [fetch] SELECT [DeviceID], [AdministratorID], [AssetAdmin], [UserID], [AssetUser], [GroupID], [Department], [VendorID], [VendorName], [VendorSKU], [PONumber], [SProvider], [LifeCycleStatus], [PrimaryUser] FROM [bcmdbuser].[FAMView]
+2026-06-30 19:57:36,023 [INFO] [fetch] 33 baris dibaca dari bcmdb.bcmdbuser.FAMView.
+2026-06-30 19:57:36,037 [INFO] [upsert] Selesai. Diproses=33, Diskip=0, Error=0.
+2026-06-30 19:57:36,038 [INFO] FINISH sync_famview — 2026-06-30 19:57:36.038729
+2026-06-30 19:57:36,038 [INFO] ============================================================

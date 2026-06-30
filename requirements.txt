@@ -1,0 +1,5 @@
+# ETL bcmdb -> GRAFANADB (PostgreSQL)
+# Install: pip install -r requirements.txt
+
+pyodbc>=4.0.39        # Koneksi ke source MSSQL
+psycopg2-binary>=2.9  # Koneksi ke destination PostgreSQL

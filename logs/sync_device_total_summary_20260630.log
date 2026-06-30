@@ -1,0 +1,188 @@
+2026-06-30 19:47:23,276 [INFO] ============================================================
+2026-06-30 19:47:23,277 [INFO] START sync_device_total_summary — 2026-06-30 19:47:23.277061
+2026-06-30 19:47:23,277 [INFO] ============================================================
+2026-06-30 19:47:23,277 [INFO] Menghubungkan ke source MSSQL (bcmdb)...
+2026-06-30 19:47:23,313 [INFO] Menghubungkan ke destination PostgreSQL (GRAFANADB)...
+2026-06-30 19:47:23,406 [INFO] [ensure_table] Tabel 'public.V_DeviceTotal_Summary' sudah tersedia.
+2026-06-30 19:47:23,406 [INFO] [fetch] SELECT [DeviceID], [InventoryID], [DeviceName], [BuildNumber], [ServicePack], [VersionNumber], [Description], [OSName], [OSLanguage], [ShortDescription], [LastUpdate] FROM [bcmdbuser].[V_DeviceTotal_Summary]
+2026-06-30 19:47:23,465 [ERROR] [FATAL] Sync gagal: ('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'InventoryID'. (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'BuildNumber'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'ServicePack'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'VersionNumber'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'Description'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'OSName'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'OSLanguage'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'ShortDescription'. (207)")
+Traceback (most recent call last):
+  File "E:\BCM\ETL\sync_device_total_summary.py", line 56, in main
+    rows = fetch_source_data(src_cur, SRC_SCHEMA, SCHEMA["source_table"], COL_NAMES, log)
+  File "E:\BCM\ETL\db_utils.py", line 118, in fetch_source_data
+    cursor.execute(f"SELECT {cols_sql} FROM {full_name}")
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pyodbc.ProgrammingError: ('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'InventoryID'. (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'BuildNumber'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'ServicePack'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'VersionNumber'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'Description'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'OSName'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'OSLanguage'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'ShortDescription'. (207)")
+2026-06-30 19:50:54,546 [INFO] ============================================================
+2026-06-30 19:50:54,547 [INFO] START sync_device_total_summary — 2026-06-30 19:50:54.547138
+2026-06-30 19:50:54,547 [INFO] ============================================================
+2026-06-30 19:50:54,547 [INFO] Menghubungkan ke source MSSQL (bcmdb)...
+2026-06-30 19:50:54,589 [INFO] Menghubungkan ke destination PostgreSQL (GRAFANADB)...
+2026-06-30 19:50:54,657 [INFO] [ensure_table] Tabel 'public.V_DeviceTotal_Summary' sudah tersedia.
+2026-06-30 19:50:54,657 [INFO] [fetch] SELECT [DeviceID], [InventoryID], [DeviceName], [BuildNumber], [ServicePack], [VersionNumber], [Description], [OSName], [OSLanguage], [ShortDescription], [LastUpdate] FROM [bcmdbuser].[V_DeviceTotal_Summary]
+2026-06-30 19:50:54,659 [ERROR] [FATAL] Sync gagal: ('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'InventoryID'. (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'BuildNumber'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'ServicePack'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'VersionNumber'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'Description'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'OSName'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'OSLanguage'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'ShortDescription'. (207)")
+Traceback (most recent call last):
+  File "E:\BCM\ETL\sync_device_total_summary.py", line 56, in main
+    rows = fetch_source_data(src_cur, SRC_SCHEMA, SCHEMA["source_table"], COL_NAMES, log)
+  File "E:\BCM\ETL\db_utils.py", line 118, in fetch_source_data
+    cursor.execute(f"SELECT {cols_sql} FROM {full_name}")
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pyodbc.ProgrammingError: ('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'InventoryID'. (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'BuildNumber'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'ServicePack'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'VersionNumber'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'Description'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'OSName'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'OSLanguage'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'ShortDescription'. (207)")
+2026-06-30 19:56:04,165 [INFO] ============================================================
+2026-06-30 19:56:04,165 [INFO] START sync_device_total_summary — 2026-06-30 19:56:04.165641
+2026-06-30 19:56:04,165 [INFO] ============================================================
+2026-06-30 19:56:04,165 [INFO] Menghubungkan ke source MSSQL (bcmdb)...
+2026-06-30 19:56:04,200 [INFO] Menghubungkan ke destination PostgreSQL (GRAFANADB)...
+2026-06-30 19:56:04,290 [INFO] [ensure_table] Tabel 'public.V_DeviceTotal_Summary' sudah tersedia.
+2026-06-30 19:56:04,290 [INFO] [fetch] SELECT [DeviceID], [InventoryID], [DeviceName], [BuildNumber], [ServicePack], [VersionNumber], [Description], [OSName], [OSLanguage], [ShortDescription], [LastUpdate] FROM [bcmdbuser].[V_DeviceTotal_Summary]
+2026-06-30 19:56:04,292 [ERROR] [FATAL] Sync gagal: ('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'InventoryID'. (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'BuildNumber'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'ServicePack'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'VersionNumber'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'Description'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'OSName'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'OSLanguage'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'ShortDescription'. (207)")
+Traceback (most recent call last):
+  File "E:\BCM\ETL\sync_device_total_summary.py", line 56, in main
+    rows = fetch_source_data(src_cur, SRC_SCHEMA, SCHEMA["source_table"], COL_NAMES, log)
+  File "E:\BCM\ETL\db_utils.py", line 118, in fetch_source_data
+    cursor.execute(f"SELECT {cols_sql} FROM {full_name}")
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pyodbc.ProgrammingError: ('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'InventoryID'. (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'BuildNumber'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'ServicePack'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'VersionNumber'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'Description'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'OSName'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'OSLanguage'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'ShortDescription'. (207)")
+2026-06-30 19:57:37,819 [INFO] ============================================================
+2026-06-30 19:57:37,819 [INFO] START sync_device_total_summary — 2026-06-30 19:57:37.819420
+2026-06-30 19:57:37,819 [INFO] ============================================================
+2026-06-30 19:57:37,819 [INFO] Menghubungkan ke source MSSQL (bcmdb)...
+2026-06-30 19:57:37,855 [INFO] Menghubungkan ke destination PostgreSQL (GRAFANADB)...
+2026-06-30 19:57:37,930 [INFO] [ensure_table] Tabel 'public.V_DeviceTotal_Summary' sudah tersedia.
+2026-06-30 19:57:37,930 [INFO] [fetch] SELECT [DeviceID], [DeviceName], [IPAddress], [MACAddress], [TopologyType], [VIMMachineVendor], [HypervisorVendor], [Manufacturer], [MODEL], [SerialNumber], [LastUpdate], [TotalDisk], [LogicalDisksSpace], [LogicalDisksFreeSpace], [Processor], [VideoController], [TotalMemory], [NbOfProcessors], [PhysicalMemory], [NetworkAdapter], [DomainName], [OperatingSystemName], [OperatingSystemVersion], [LastLoggedInUser], [Software] FROM [bcmdbuser].[V_DeviceTotal_Summary]
+2026-06-30 19:57:38,106 [INFO] [fetch] 33 baris dibaca dari bcmdb.bcmdbuser.V_DeviceTotal_Summary.
+2026-06-30 19:57:38,108 [ERROR] [upsert] Gagal pada key={'DeviceID': 1000}: kolom  « IPAddress » dari relasi « V_DeviceTotal_Summary » tidak ada
+LINE 1: ...V_DeviceTotal_Summary" ("DeviceID", "DeviceName", "IPAddress...
+                                                             ^
+
+2026-06-30 19:57:38,109 [ERROR] [upsert] Gagal pada key={'DeviceID': 1001}: kolom  « IPAddress » dari relasi « V_DeviceTotal_Summary » tidak ada
+LINE 1: ...V_DeviceTotal_Summary" ("DeviceID", "DeviceName", "IPAddress...
+                                                             ^
+
+2026-06-30 19:57:38,110 [ERROR] [upsert] Gagal pada key={'DeviceID': 1002}: kolom  « IPAddress » dari relasi « V_DeviceTotal_Summary » tidak ada
+LINE 1: ...V_DeviceTotal_Summary" ("DeviceID", "DeviceName", "IPAddress...
+                                                             ^
+
+2026-06-30 19:57:38,111 [ERROR] [upsert] Gagal pada key={'DeviceID': 1003}: kolom  « IPAddress » dari relasi « V_DeviceTotal_Summary » tidak ada
+LINE 1: ...V_DeviceTotal_Summary" ("DeviceID", "DeviceName", "IPAddress...
+                                                             ^
+
+2026-06-30 19:57:38,112 [ERROR] [upsert] Gagal pada key={'DeviceID': 1004}: kolom  « IPAddress » dari relasi « V_DeviceTotal_Summary » tidak ada
+LINE 1: ...V_DeviceTotal_Summary" ("DeviceID", "DeviceName", "IPAddress...
+                                                             ^
+
+2026-06-30 19:57:38,113 [ERROR] [upsert] Gagal pada key={'DeviceID': 1005}: kolom  « IPAddress » dari relasi « V_DeviceTotal_Summary » tidak ada
+LINE 1: ...V_DeviceTotal_Summary" ("DeviceID", "DeviceName", "IPAddress...
+                                                             ^
+
+2026-06-30 19:57:38,114 [ERROR] [upsert] Gagal pada key={'DeviceID': 1006}: kolom  « IPAddress » dari relasi « V_DeviceTotal_Summary » tidak ada
+LINE 1: ...V_DeviceTotal_Summary" ("DeviceID", "DeviceName", "IPAddress...
+                                                             ^
+
+2026-06-30 19:57:38,115 [ERROR] [upsert] Gagal pada key={'DeviceID': 1007}: kolom  « IPAddress » dari relasi « V_DeviceTotal_Summary » tidak ada
+LINE 1: ...V_DeviceTotal_Summary" ("DeviceID", "DeviceName", "IPAddress...
+                                                             ^
+
+2026-06-30 19:57:38,116 [ERROR] [upsert] Gagal pada key={'DeviceID': 1008}: kolom  « IPAddress » dari relasi « V_DeviceTotal_Summary » tidak ada
+LINE 1: ...V_DeviceTotal_Summary" ("DeviceID", "DeviceName", "IPAddress...
+                                                             ^
+
+2026-06-30 19:57:38,117 [ERROR] [upsert] Gagal pada key={'DeviceID': 1009}: kolom  « IPAddress » dari relasi « V_DeviceTotal_Summary » tidak ada
+LINE 1: ...V_DeviceTotal_Summary" ("DeviceID", "DeviceName", "IPAddress...
+                                                             ^
+
+2026-06-30 19:57:38,118 [ERROR] [upsert] Gagal pada key={'DeviceID': 1010}: kolom  « IPAddress » dari relasi « V_DeviceTotal_Summary » tidak ada
+LINE 1: ...V_DeviceTotal_Summary" ("DeviceID", "DeviceName", "IPAddress...
+                                                             ^
+
+2026-06-30 19:57:38,118 [ERROR] [upsert] Gagal pada key={'DeviceID': 1011}: kolom  « IPAddress » dari relasi « V_DeviceTotal_Summary » tidak ada
+LINE 1: ...V_DeviceTotal_Summary" ("DeviceID", "DeviceName", "IPAddress...
+                                                             ^
+
+2026-06-30 19:57:38,119 [ERROR] [upsert] Gagal pada key={'DeviceID': 1012}: kolom  « IPAddress » dari relasi « V_DeviceTotal_Summary » tidak ada
+LINE 1: ...V_DeviceTotal_Summary" ("DeviceID", "DeviceName", "IPAddress...
+                                                             ^
+
+2026-06-30 19:57:38,120 [ERROR] [upsert] Gagal pada key={'DeviceID': 1013}: kolom  « IPAddress » dari relasi « V_DeviceTotal_Summary » tidak ada
+LINE 1: ...V_DeviceTotal_Summary" ("DeviceID", "DeviceName", "IPAddress...
+                                                             ^
+
+2026-06-30 19:57:38,121 [ERROR] [upsert] Gagal pada key={'DeviceID': 1014}: kolom  « IPAddress » dari relasi « V_DeviceTotal_Summary » tidak ada
+LINE 1: ...V_DeviceTotal_Summary" ("DeviceID", "DeviceName", "IPAddress...
+                                                             ^
+
+2026-06-30 19:57:38,122 [ERROR] [upsert] Gagal pada key={'DeviceID': 1015}: kolom  « IPAddress » dari relasi « V_DeviceTotal_Summary » tidak ada
+LINE 1: ...V_DeviceTotal_Summary" ("DeviceID", "DeviceName", "IPAddress...
+                                                             ^
+
+2026-06-30 19:57:38,123 [ERROR] [upsert] Gagal pada key={'DeviceID': 1016}: kolom  « IPAddress » dari relasi « V_DeviceTotal_Summary » tidak ada
+LINE 1: ...V_DeviceTotal_Summary" ("DeviceID", "DeviceName", "IPAddress...
+                                                             ^
+
+2026-06-30 19:57:38,124 [ERROR] [upsert] Gagal pada key={'DeviceID': 1017}: kolom  « IPAddress » dari relasi « V_DeviceTotal_Summary » tidak ada
+LINE 1: ...V_DeviceTotal_Summary" ("DeviceID", "DeviceName", "IPAddress...
+                                                             ^
+
+2026-06-30 19:57:38,125 [ERROR] [upsert] Gagal pada key={'DeviceID': 1018}: kolom  « IPAddress » dari relasi « V_DeviceTotal_Summary » tidak ada
+LINE 1: ...V_DeviceTotal_Summary" ("DeviceID", "DeviceName", "IPAddress...
+                                                             ^
+
+2026-06-30 19:57:38,125 [ERROR] [upsert] Gagal pada key={'DeviceID': 1019}: kolom  « IPAddress » dari relasi « V_DeviceTotal_Summary » tidak ada
+LINE 1: ...V_DeviceTotal_Summary" ("DeviceID", "DeviceName", "IPAddress...
+                                                             ^
+
+2026-06-30 19:57:38,127 [ERROR] [upsert] Gagal pada key={'DeviceID': 1020}: kolom  « IPAddress » dari relasi « V_DeviceTotal_Summary » tidak ada
+LINE 1: ...V_DeviceTotal_Summary" ("DeviceID", "DeviceName", "IPAddress...
+                                                             ^
+
+2026-06-30 19:57:38,127 [ERROR] [upsert] Gagal pada key={'DeviceID': 1021}: kolom  « IPAddress » dari relasi « V_DeviceTotal_Summary » tidak ada
+LINE 1: ...V_DeviceTotal_Summary" ("DeviceID", "DeviceName", "IPAddress...
+                                                             ^
+
+2026-06-30 19:57:38,128 [ERROR] [upsert] Gagal pada key={'DeviceID': 1022}: kolom  « IPAddress » dari relasi « V_DeviceTotal_Summary » tidak ada
+LINE 1: ...V_DeviceTotal_Summary" ("DeviceID", "DeviceName", "IPAddress...
+                                                             ^
+
+2026-06-30 19:57:38,129 [ERROR] [upsert] Gagal pada key={'DeviceID': 1023}: kolom  « IPAddress » dari relasi « V_DeviceTotal_Summary » tidak ada
+LINE 1: ...V_DeviceTotal_Summary" ("DeviceID", "DeviceName", "IPAddress...
+                                                             ^
+
+2026-06-30 19:57:38,130 [ERROR] [upsert] Gagal pada key={'DeviceID': 1024}: kolom  « IPAddress » dari relasi « V_DeviceTotal_Summary » tidak ada
+LINE 1: ...V_DeviceTotal_Summary" ("DeviceID", "DeviceName", "IPAddress...
+                                                             ^
+
+2026-06-30 19:57:38,131 [ERROR] [upsert] Gagal pada key={'DeviceID': 1025}: kolom  « IPAddress » dari relasi « V_DeviceTotal_Summary » tidak ada
+LINE 1: ...V_DeviceTotal_Summary" ("DeviceID", "DeviceName", "IPAddress...
+                                                             ^
+
+2026-06-30 19:57:38,132 [ERROR] [upsert] Gagal pada key={'DeviceID': 1026}: kolom  « IPAddress » dari relasi « V_DeviceTotal_Summary » tidak ada
+LINE 1: ...V_DeviceTotal_Summary" ("DeviceID", "DeviceName", "IPAddress...
+                                                             ^
+
+2026-06-30 19:57:38,133 [ERROR] [upsert] Gagal pada key={'DeviceID': 1027}: kolom  « IPAddress » dari relasi « V_DeviceTotal_Summary » tidak ada
+LINE 1: ...V_DeviceTotal_Summary" ("DeviceID", "DeviceName", "IPAddress...
+                                                             ^
+
+2026-06-30 19:57:38,134 [ERROR] [upsert] Gagal pada key={'DeviceID': 1028}: kolom  « IPAddress » dari relasi « V_DeviceTotal_Summary » tidak ada
+LINE 1: ...V_DeviceTotal_Summary" ("DeviceID", "DeviceName", "IPAddress...
+                                                             ^
+
+2026-06-30 19:57:38,135 [ERROR] [upsert] Gagal pada key={'DeviceID': 1029}: kolom  « IPAddress » dari relasi « V_DeviceTotal_Summary » tidak ada
+LINE 1: ...V_DeviceTotal_Summary" ("DeviceID", "DeviceName", "IPAddress...
+                                                             ^
+
+2026-06-30 19:57:38,136 [ERROR] [upsert] Gagal pada key={'DeviceID': 1030}: kolom  « IPAddress » dari relasi « V_DeviceTotal_Summary » tidak ada
+LINE 1: ...V_DeviceTotal_Summary" ("DeviceID", "DeviceName", "IPAddress...
+                                                             ^
+
+2026-06-30 19:57:38,137 [ERROR] [upsert] Gagal pada key={'DeviceID': 1031}: kolom  « IPAddress » dari relasi « V_DeviceTotal_Summary » tidak ada
+LINE 1: ...V_DeviceTotal_Summary" ("DeviceID", "DeviceName", "IPAddress...
+                                                             ^
+
+2026-06-30 19:57:38,138 [ERROR] [upsert] Gagal pada key={'DeviceID': 1032}: kolom  « IPAddress » dari relasi « V_DeviceTotal_Summary » tidak ada
+LINE 1: ...V_DeviceTotal_Summary" ("DeviceID", "DeviceName", "IPAddress...
+                                                             ^
+
+2026-06-30 19:57:38,138 [INFO] [upsert] Selesai. Diproses=0, Diskip=0, Error=33.
+2026-06-30 19:57:38,139 [INFO] FINISH sync_device_total_summary — 2026-06-30 19:57:38.139228
+2026-06-30 19:57:38,139 [INFO] ============================================================

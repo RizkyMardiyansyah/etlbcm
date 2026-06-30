@@ -1,0 +1,44 @@
+2026-06-30 19:47:19,787 [INFO] ============================================================
+2026-06-30 19:47:19,787 [INFO] START sync_computer_system — 2026-06-30 19:47:19.787773
+2026-06-30 19:47:19,787 [INFO] ============================================================
+2026-06-30 19:47:19,788 [INFO] Menghubungkan ke source MSSQL (bcmdb)...
+2026-06-30 19:47:19,830 [INFO] Menghubungkan ke destination PostgreSQL (GRAFANADB)...
+2026-06-30 19:47:19,900 [INFO] [ensure_table] Tabel 'public.Atrium_CMDB_ComputerSystem' sudah tersedia.
+2026-06-30 19:47:19,901 [INFO] [fetch] SELECT [DeviceID], [DeviceName], [OperatingSystemName], [SerialNumber], [Description], [ShortDescription], [DeviceType], [TopologyType], [LastUpdate], [VirtualSystemType], [IsVirtual], [TokenID], [ManufacturerName], [ModelName], [Domain], [HostName], [PhysicalMemory], [AssetTag], [Location], [PrimaryUserLogin], [PrimaryUserDomain], [LastLoggedInUser] FROM [bcmdbuser].[Atrium_CMDB_ComputerSystem]
+2026-06-30 19:47:19,903 [INFO] [fetch] 33 baris dibaca dari bcmdb.bcmdbuser.Atrium_CMDB_ComputerSystem.
+2026-06-30 19:47:19,924 [INFO] [upsert] Selesai. Diproses=33, Diskip=0, Error=0.
+2026-06-30 19:47:19,925 [INFO] FINISH sync_computer_system — 2026-06-30 19:47:19.925625
+2026-06-30 19:47:19,925 [INFO] ============================================================
+2026-06-30 19:50:50,623 [INFO] ============================================================
+2026-06-30 19:50:50,623 [INFO] START sync_computer_system — 2026-06-30 19:50:50.623871
+2026-06-30 19:50:50,624 [INFO] ============================================================
+2026-06-30 19:50:50,624 [INFO] Menghubungkan ke source MSSQL (bcmdb)...
+2026-06-30 19:50:50,663 [INFO] Menghubungkan ke destination PostgreSQL (GRAFANADB)...
+2026-06-30 19:50:50,733 [INFO] [ensure_table] Tabel 'public.Atrium_CMDB_ComputerSystem' sudah tersedia.
+2026-06-30 19:50:50,733 [INFO] [fetch] SELECT [DeviceID], [DeviceName], [OperatingSystemName], [SerialNumber], [Description], [ShortDescription], [DeviceType], [TopologyType], [LastUpdate], [VirtualSystemType], [IsVirtual], [TokenID], [ManufacturerName], [ModelName], [Domain], [HostName], [PhysicalMemory], [AssetTag], [Location], [PrimaryUserLogin], [PrimaryUserDomain], [LastLoggedInUser] FROM [bcmdbuser].[Atrium_CMDB_ComputerSystem]
+2026-06-30 19:50:50,735 [INFO] [fetch] 33 baris dibaca dari bcmdb.bcmdbuser.Atrium_CMDB_ComputerSystem.
+2026-06-30 19:50:50,755 [INFO] [upsert] Selesai. Diproses=33, Diskip=0, Error=0.
+2026-06-30 19:50:50,756 [INFO] FINISH sync_computer_system — 2026-06-30 19:50:50.756037
+2026-06-30 19:50:50,756 [INFO] ============================================================
+2026-06-30 19:56:00,004 [INFO] ============================================================
+2026-06-30 19:56:00,004 [INFO] START sync_computer_system — 2026-06-30 19:56:00.004236
+2026-06-30 19:56:00,004 [INFO] ============================================================
+2026-06-30 19:56:00,004 [INFO] Menghubungkan ke source MSSQL (bcmdb)...
+2026-06-30 19:56:00,042 [INFO] Menghubungkan ke destination PostgreSQL (GRAFANADB)...
+2026-06-30 19:56:00,121 [INFO] [ensure_table] Tabel 'public.Atrium_CMDB_ComputerSystem' sudah tersedia.
+2026-06-30 19:56:00,121 [INFO] [fetch] SELECT [DeviceID], [DeviceName], [OperatingSystemName], [SerialNumber], [Description], [ShortDescription], [DeviceType], [TopologyType], [LastUpdate], [VirtualSystemType], [IsVirtual], [TokenID], [ManufacturerName], [ModelName], [Domain], [HostName], [PhysicalMemory], [AssetTag], [Location], [PrimaryUserLogin], [PrimaryUserDomain], [LastLoggedInUser] FROM [bcmdbuser].[Atrium_CMDB_ComputerSystem]
+2026-06-30 19:56:00,123 [INFO] [fetch] 33 baris dibaca dari bcmdb.bcmdbuser.Atrium_CMDB_ComputerSystem.
+2026-06-30 19:56:00,140 [INFO] [upsert] Selesai. Diproses=33, Diskip=0, Error=0.
+2026-06-30 19:56:00,141 [INFO] FINISH sync_computer_system — 2026-06-30 19:56:00.141577
+2026-06-30 19:56:00,141 [INFO] ============================================================
+2026-06-30 19:57:34,438 [INFO] ============================================================
+2026-06-30 19:57:34,439 [INFO] START sync_computer_system — 2026-06-30 19:57:34.439009
+2026-06-30 19:57:34,439 [INFO] ============================================================
+2026-06-30 19:57:34,439 [INFO] Menghubungkan ke source MSSQL (bcmdb)...
+2026-06-30 19:57:34,476 [INFO] Menghubungkan ke destination PostgreSQL (GRAFANADB)...
+2026-06-30 19:57:34,559 [INFO] [ensure_table] Tabel 'public.Atrium_CMDB_ComputerSystem' sudah tersedia.
+2026-06-30 19:57:34,560 [INFO] [fetch] SELECT [DeviceID], [DeviceName], [OperatingSystemName], [SerialNumber], [Description], [ShortDescription], [DeviceType], [TopologyType], [LastUpdate], [VirtualSystemType], [IsVirtual], [TokenID], [ManufacturerName], [ModelName], [Domain], [HostName], [PhysicalMemory], [AssetTag], [Location], [PrimaryUserLogin], [PrimaryUserDomain], [LastLoggedInUser] FROM [bcmdbuser].[Atrium_CMDB_ComputerSystem]
+2026-06-30 19:57:34,561 [INFO] [fetch] 33 baris dibaca dari bcmdb.bcmdbuser.Atrium_CMDB_ComputerSystem.
+2026-06-30 19:57:34,578 [INFO] [upsert] Selesai. Diproses=33, Diskip=0, Error=0.
+2026-06-30 19:57:34,578 [INFO] FINISH sync_computer_system — 2026-06-30 19:57:34.578645
+2026-06-30 19:57:34,578 [INFO] ============================================================

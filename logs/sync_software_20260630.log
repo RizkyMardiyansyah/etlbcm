@@ -1,0 +1,44 @@
+2026-06-30 19:47:22,442 [INFO] ============================================================
+2026-06-30 19:47:22,442 [INFO] START sync_software — 2026-06-30 19:47:22.442750
+2026-06-30 19:47:22,442 [INFO] ============================================================
+2026-06-30 19:47:22,443 [INFO] Menghubungkan ke source MSSQL (bcmdb)...
+2026-06-30 19:47:22,481 [INFO] Menghubungkan ke destination PostgreSQL (GRAFANADB)...
+2026-06-30 19:47:22,556 [INFO] [ensure_table] Tabel 'public.V_CMDB_Software' sudah tersedia.
+2026-06-30 19:47:22,556 [INFO] [fetch] SELECT [Name], [Version], [Manufacturer], [Type], [CopiesInstalled], [CopiesInUse] FROM [bcmdbuser].[V_CMDB_Software]
+2026-06-30 19:47:22,750 [INFO] [fetch] 669 baris dibaca dari bcmdb.bcmdbuser.V_CMDB_Software.
+2026-06-30 19:47:22,951 [INFO] [upsert] Selesai. Diproses=669, Diskip=0, Error=0.
+2026-06-30 19:47:22,952 [INFO] FINISH sync_software — 2026-06-30 19:47:22.952013
+2026-06-30 19:47:22,952 [INFO] ============================================================
+2026-06-30 19:50:53,128 [INFO] ============================================================
+2026-06-30 19:50:53,129 [INFO] START sync_software — 2026-06-30 19:50:53.129014
+2026-06-30 19:50:53,129 [INFO] ============================================================
+2026-06-30 19:50:53,129 [INFO] Menghubungkan ke source MSSQL (bcmdb)...
+2026-06-30 19:50:53,166 [INFO] Menghubungkan ke destination PostgreSQL (GRAFANADB)...
+2026-06-30 19:50:53,234 [INFO] [ensure_table] Tabel 'public.V_CMDB_Software' sudah tersedia.
+2026-06-30 19:50:53,234 [INFO] [fetch] SELECT [Name], [Version], [Manufacturer], [Type], [CopiesInstalled], [CopiesInUse] FROM [bcmdbuser].[V_CMDB_Software]
+2026-06-30 19:50:53,455 [INFO] [fetch] 669 baris dibaca dari bcmdb.bcmdbuser.V_CMDB_Software.
+2026-06-30 19:50:53,715 [INFO] [upsert] Selesai. Diproses=669, Diskip=0, Error=0.
+2026-06-30 19:50:53,716 [INFO] FINISH sync_software — 2026-06-30 19:50:53.716721
+2026-06-30 19:50:53,716 [INFO] ============================================================
+2026-06-30 19:56:02,768 [INFO] ============================================================
+2026-06-30 19:56:02,769 [INFO] START sync_software — 2026-06-30 19:56:02.769125
+2026-06-30 19:56:02,769 [INFO] ============================================================
+2026-06-30 19:56:02,769 [INFO] Menghubungkan ke source MSSQL (bcmdb)...
+2026-06-30 19:56:02,812 [INFO] Menghubungkan ke destination PostgreSQL (GRAFANADB)...
+2026-06-30 19:56:02,888 [INFO] [ensure_table] Tabel 'public.V_CMDB_Software' sudah tersedia.
+2026-06-30 19:56:02,888 [INFO] [fetch] SELECT [Name], [Version], [Manufacturer], [Type], [CopiesInstalled], [CopiesInUse] FROM [bcmdbuser].[V_CMDB_Software]
+2026-06-30 19:56:03,279 [INFO] [fetch] 669 baris dibaca dari bcmdb.bcmdbuser.V_CMDB_Software.
+2026-06-30 19:56:03,542 [INFO] [upsert] Selesai. Diproses=669, Diskip=0, Error=0.
+2026-06-30 19:56:03,543 [INFO] FINISH sync_software — 2026-06-30 19:56:03.543071
+2026-06-30 19:56:03,543 [INFO] ============================================================
+2026-06-30 19:57:36,787 [INFO] ============================================================
+2026-06-30 19:57:36,788 [INFO] START sync_software — 2026-06-30 19:57:36.788063
+2026-06-30 19:57:36,788 [INFO] ============================================================
+2026-06-30 19:57:36,788 [INFO] Menghubungkan ke source MSSQL (bcmdb)...
+2026-06-30 19:57:36,827 [INFO] Menghubungkan ke destination PostgreSQL (GRAFANADB)...
+2026-06-30 19:57:36,899 [INFO] [ensure_table] Tabel 'public.V_CMDB_Software' sudah tersedia.
+2026-06-30 19:57:36,899 [INFO] [fetch] SELECT [Name], [Version], [Manufacturer], [Type], [CopiesInstalled], [CopiesInUse] FROM [bcmdbuser].[V_CMDB_Software]
+2026-06-30 19:57:37,101 [INFO] [fetch] 669 baris dibaca dari bcmdb.bcmdbuser.V_CMDB_Software.
+2026-06-30 19:57:37,305 [INFO] [upsert] Selesai. Diproses=669, Diskip=0, Error=0.
+2026-06-30 19:57:37,306 [INFO] FINISH sync_software — 2026-06-30 19:57:37.306453
+2026-06-30 19:57:37,306 [INFO] ============================================================

@@ -28,7 +28,9 @@ if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
 
 # ─── Logging ─────────────────────────────────────────────────────────────────
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-LOG_FILE = os.path.join(BASE_DIR, f"run_all_sync_{datetime.now().strftime('%Y%m%d')}.log")
+LOG_DIR  = os.path.join(BASE_DIR, "logs")
+os.makedirs(LOG_DIR, exist_ok=True)
+LOG_FILE = os.path.join(LOG_DIR, f"run_all_sync_{datetime.now().strftime('%Y%m%d')}.log")
 
 logging.basicConfig(
     level=logging.INFO,
@@ -52,6 +54,7 @@ SCRIPTS = [
     "sync_device.py",             # V_CMDB_Device
     "sync_software.py",           # V_CMDB_Software
     "sync_software_rel.py",       # V_CMDB_SoftwareRel
+    "sync_device_total_summary.py", # V_DeviceTotal_Summary (BARU)
 ]
 
 

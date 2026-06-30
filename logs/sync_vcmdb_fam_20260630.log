@@ -1,0 +1,44 @@
+2026-06-30 19:47:21,820 [INFO] ============================================================
+2026-06-30 19:47:21,820 [INFO] START sync_vcmdb_fam — 2026-06-30 19:47:21.820534
+2026-06-30 19:47:21,820 [INFO] ============================================================
+2026-06-30 19:47:21,820 [INFO] Menghubungkan ke source MSSQL (bcmdb)...
+2026-06-30 19:47:21,857 [INFO] Menghubungkan ke destination PostgreSQL (GRAFANADB)...
+2026-06-30 19:47:21,931 [INFO] [ensure_table] Tabel 'public.V_CMDB_FAM' sudah tersedia.
+2026-06-30 19:47:21,931 [INFO] [fetch] SELECT [DeviceID], [AssetAdmin], [AssetUser], [Department], [FAMLocation], [VendorName], [VendorSKU], [PONumber], [SProvider], [LifeCycleStatus], [PrimaryUser], [AssetTag], [InvoiceNumber], [WETime], [WCost], [STime], [SCost], [SPhone], [PTime], [InvoiceDate], [RTime], [SSTime], [PCost], [Residual], [UsefulLife], [LCost], [LTermNumber], [IsPurchased], [DepreciationType], [GCost], [ACost] FROM [bcmdbuser].[V_CMDB_FAM]
+2026-06-30 19:47:21,934 [INFO] [fetch] 33 baris dibaca dari bcmdb.bcmdbuser.V_CMDB_FAM.
+2026-06-30 19:47:21,956 [INFO] [upsert] Selesai. Diproses=33, Diskip=0, Error=0.
+2026-06-30 19:47:21,957 [INFO] FINISH sync_vcmdb_fam — 2026-06-30 19:47:21.956995
+2026-06-30 19:47:21,957 [INFO] ============================================================
+2026-06-30 19:50:52,411 [INFO] ============================================================
+2026-06-30 19:50:52,411 [INFO] START sync_vcmdb_fam — 2026-06-30 19:50:52.411375
+2026-06-30 19:50:52,411 [INFO] ============================================================
+2026-06-30 19:50:52,411 [INFO] Menghubungkan ke source MSSQL (bcmdb)...
+2026-06-30 19:50:52,452 [INFO] Menghubungkan ke destination PostgreSQL (GRAFANADB)...
+2026-06-30 19:50:52,622 [INFO] [ensure_table] Tabel 'public.V_CMDB_FAM' sudah tersedia.
+2026-06-30 19:50:52,622 [INFO] [fetch] SELECT [DeviceID], [AssetAdmin], [AssetUser], [Department], [FAMLocation], [VendorName], [VendorSKU], [PONumber], [SProvider], [LifeCycleStatus], [PrimaryUser], [AssetTag], [InvoiceNumber], [WETime], [WCost], [STime], [SCost], [SPhone], [PTime], [InvoiceDate], [RTime], [SSTime], [PCost], [Residual], [UsefulLife], [LCost], [LTermNumber], [IsPurchased], [DepreciationType], [GCost], [ACost] FROM [bcmdbuser].[V_CMDB_FAM]
+2026-06-30 19:50:52,629 [INFO] [fetch] 33 baris dibaca dari bcmdb.bcmdbuser.V_CMDB_FAM.
+2026-06-30 19:50:52,648 [INFO] [upsert] Selesai. Diproses=33, Diskip=0, Error=0.
+2026-06-30 19:50:52,649 [INFO] FINISH sync_vcmdb_fam — 2026-06-30 19:50:52.649051
+2026-06-30 19:50:52,649 [INFO] ============================================================
+2026-06-30 19:56:01,995 [INFO] ============================================================
+2026-06-30 19:56:01,995 [INFO] START sync_vcmdb_fam — 2026-06-30 19:56:01.995725
+2026-06-30 19:56:01,995 [INFO] ============================================================
+2026-06-30 19:56:01,996 [INFO] Menghubungkan ke source MSSQL (bcmdb)...
+2026-06-30 19:56:02,036 [INFO] Menghubungkan ke destination PostgreSQL (GRAFANADB)...
+2026-06-30 19:56:02,110 [INFO] [ensure_table] Tabel 'public.V_CMDB_FAM' sudah tersedia.
+2026-06-30 19:56:02,110 [INFO] [fetch] SELECT [DeviceID], [AssetAdmin], [AssetUser], [Department], [FAMLocation], [VendorName], [VendorSKU], [PONumber], [SProvider], [LifeCycleStatus], [PrimaryUser], [AssetTag], [InvoiceNumber], [WETime], [WCost], [STime], [SCost], [SPhone], [PTime], [InvoiceDate], [RTime], [SSTime], [PCost], [Residual], [UsefulLife], [LCost], [LTermNumber], [IsPurchased], [DepreciationType], [GCost], [ACost] FROM [bcmdbuser].[V_CMDB_FAM]
+2026-06-30 19:56:02,114 [INFO] [fetch] 33 baris dibaca dari bcmdb.bcmdbuser.V_CMDB_FAM.
+2026-06-30 19:56:02,138 [INFO] [upsert] Selesai. Diproses=33, Diskip=0, Error=0.
+2026-06-30 19:56:02,139 [INFO] FINISH sync_vcmdb_fam — 2026-06-30 19:56:02.139710
+2026-06-30 19:56:02,139 [INFO] ============================================================
+2026-06-30 19:57:36,203 [INFO] ============================================================
+2026-06-30 19:57:36,203 [INFO] START sync_vcmdb_fam — 2026-06-30 19:57:36.203344
+2026-06-30 19:57:36,203 [INFO] ============================================================
+2026-06-30 19:57:36,203 [INFO] Menghubungkan ke source MSSQL (bcmdb)...
+2026-06-30 19:57:36,240 [INFO] Menghubungkan ke destination PostgreSQL (GRAFANADB)...
+2026-06-30 19:57:36,308 [INFO] [ensure_table] Tabel 'public.V_CMDB_FAM' sudah tersedia.
+2026-06-30 19:57:36,309 [INFO] [fetch] SELECT [DeviceID], [AssetAdmin], [AssetUser], [Department], [FAMLocation], [VendorName], [VendorSKU], [PONumber], [SProvider], [LifeCycleStatus], [PrimaryUser], [AssetTag], [InvoiceNumber], [WETime], [WCost], [STime], [SCost], [SPhone], [PTime], [InvoiceDate], [RTime], [SSTime], [PCost], [Residual], [UsefulLife], [LCost], [LTermNumber], [IsPurchased], [DepreciationType], [GCost], [ACost] FROM [bcmdbuser].[V_CMDB_FAM]
+2026-06-30 19:57:36,312 [INFO] [fetch] 33 baris dibaca dari bcmdb.bcmdbuser.V_CMDB_FAM.
+2026-06-30 19:57:36,336 [INFO] [upsert] Selesai. Diproses=33, Diskip=0, Error=0.
+2026-06-30 19:57:36,336 [INFO] FINISH sync_vcmdb_fam — 2026-06-30 19:57:36.336864
+2026-06-30 19:57:36,337 [INFO] ============================================================

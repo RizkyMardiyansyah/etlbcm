@@ -1,0 +1,44 @@
+2026-06-30 19:47:20,978 [INFO] ============================================================
+2026-06-30 19:47:20,978 [INFO] START sync_processor — 2026-06-30 19:47:20.978538
+2026-06-30 19:47:20,978 [INFO] ============================================================
+2026-06-30 19:47:20,978 [INFO] Menghubungkan ke source MSSQL (bcmdb)...
+2026-06-30 19:47:21,015 [INFO] Menghubungkan ke destination PostgreSQL (GRAFANADB)...
+2026-06-30 19:47:21,081 [INFO] [ensure_table] Tabel 'public.Atrium_CMDB_Processor' sudah tersedia.
+2026-06-30 19:47:21,081 [INFO] [fetch] SELECT [DeviceID], [DeviceName], [InstanceName], [NumberOfLogicalProcessors], [InventoryID], [ProcessorFamily], [Description], [ShortDescription], [Name], [ManufacturerName], [MaxClockSpeed], [LastUpdate] FROM [bcmdbuser].[Atrium_CMDB_Processor]
+2026-06-30 19:47:21,082 [INFO] [fetch] 8 baris dibaca dari bcmdb.bcmdbuser.Atrium_CMDB_Processor.
+2026-06-30 19:47:21,088 [INFO] [upsert] Selesai. Diproses=8, Diskip=0, Error=0.
+2026-06-30 19:47:21,089 [INFO] FINISH sync_processor — 2026-06-30 19:47:21.089225
+2026-06-30 19:47:21,089 [INFO] ============================================================
+2026-06-30 19:50:51,497 [INFO] ============================================================
+2026-06-30 19:50:51,497 [INFO] START sync_processor — 2026-06-30 19:50:51.497831
+2026-06-30 19:50:51,498 [INFO] ============================================================
+2026-06-30 19:50:51,498 [INFO] Menghubungkan ke source MSSQL (bcmdb)...
+2026-06-30 19:50:51,535 [INFO] Menghubungkan ke destination PostgreSQL (GRAFANADB)...
+2026-06-30 19:50:51,615 [INFO] [ensure_table] Tabel 'public.Atrium_CMDB_Processor' sudah tersedia.
+2026-06-30 19:50:51,615 [INFO] [fetch] SELECT [DeviceID], [DeviceName], [InstanceName], [NumberOfLogicalProcessors], [InventoryID], [ProcessorFamily], [Description], [ShortDescription], [Name], [ManufacturerName], [MaxClockSpeed], [LastUpdate] FROM [bcmdbuser].[Atrium_CMDB_Processor]
+2026-06-30 19:50:51,616 [INFO] [fetch] 8 baris dibaca dari bcmdb.bcmdbuser.Atrium_CMDB_Processor.
+2026-06-30 19:50:51,622 [INFO] [upsert] Selesai. Diproses=8, Diskip=0, Error=0.
+2026-06-30 19:50:51,623 [INFO] FINISH sync_processor — 2026-06-30 19:50:51.623701
+2026-06-30 19:50:51,623 [INFO] ============================================================
+2026-06-30 19:56:00,890 [INFO] ============================================================
+2026-06-30 19:56:00,891 [INFO] START sync_processor — 2026-06-30 19:56:00.891145
+2026-06-30 19:56:00,891 [INFO] ============================================================
+2026-06-30 19:56:00,891 [INFO] Menghubungkan ke source MSSQL (bcmdb)...
+2026-06-30 19:56:00,929 [INFO] Menghubungkan ke destination PostgreSQL (GRAFANADB)...
+2026-06-30 19:56:00,999 [INFO] [ensure_table] Tabel 'public.Atrium_CMDB_Processor' sudah tersedia.
+2026-06-30 19:56:00,999 [INFO] [fetch] SELECT [DeviceID], [DeviceName], [InstanceName], [NumberOfLogicalProcessors], [InventoryID], [ProcessorFamily], [Description], [ShortDescription], [Name], [ManufacturerName], [MaxClockSpeed], [LastUpdate] FROM [bcmdbuser].[Atrium_CMDB_Processor]
+2026-06-30 19:56:01,000 [INFO] [fetch] 8 baris dibaca dari bcmdb.bcmdbuser.Atrium_CMDB_Processor.
+2026-06-30 19:56:01,006 [INFO] [upsert] Selesai. Diproses=8, Diskip=0, Error=0.
+2026-06-30 19:56:01,007 [INFO] FINISH sync_processor — 2026-06-30 19:56:01.007883
+2026-06-30 19:56:01,008 [INFO] ============================================================
+2026-06-30 19:57:35,343 [INFO] ============================================================
+2026-06-30 19:57:35,343 [INFO] START sync_processor — 2026-06-30 19:57:35.343681
+2026-06-30 19:57:35,343 [INFO] ============================================================
+2026-06-30 19:57:35,343 [INFO] Menghubungkan ke source MSSQL (bcmdb)...
+2026-06-30 19:57:35,383 [INFO] Menghubungkan ke destination PostgreSQL (GRAFANADB)...
+2026-06-30 19:57:35,450 [INFO] [ensure_table] Tabel 'public.Atrium_CMDB_Processor' sudah tersedia.
+2026-06-30 19:57:35,451 [INFO] [fetch] SELECT [DeviceID], [DeviceName], [InstanceName], [NumberOfLogicalProcessors], [InventoryID], [ProcessorFamily], [Description], [ShortDescription], [Name], [ManufacturerName], [MaxClockSpeed], [LastUpdate] FROM [bcmdbuser].[Atrium_CMDB_Processor]
+2026-06-30 19:57:35,452 [INFO] [fetch] 8 baris dibaca dari bcmdb.bcmdbuser.Atrium_CMDB_Processor.
+2026-06-30 19:57:35,457 [INFO] [upsert] Selesai. Diproses=8, Diskip=0, Error=0.
+2026-06-30 19:57:35,458 [INFO] FINISH sync_processor — 2026-06-30 19:57:35.458341
+2026-06-30 19:57:35,458 [INFO] ============================================================
